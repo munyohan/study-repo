@@ -15,5 +15,6 @@
   },
   "dependencies": {
     "@types/jest": "^26.0.22"
-  }
+  },
+  "type": "module"
 }
