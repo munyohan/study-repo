@@ -59,3 +59,8 @@ describe('group 1', () => {
     expect(users).not.toContainEqual(user);
   });
 });
+
+const mockFn = jest.fn();
+
+mockFn.mockReturnValue('I am a mock !');
+console.log(mockFn());
